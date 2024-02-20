@@ -1,0 +1,81 @@
+* {
+  font-family: sans-serif;
+}
+body {
+  margin: 40px;
+}
+h1 {
+  color: rgb(2, 2, 109);
+}
+header {
+  position: relative;
+}
+.seft-image {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 113px;
+}
+.tenthongtin {
+  display: inline-block;
+  font-weight: bold;
+  width: 150px;
+}
+.self-info {
+  display: inline-block;
+}
+h2 {
+  border-bottom: solid 2px;
+  margin-top: 40px;
+}
+
+.khoangtime {
+  border-bottom: solid 1px rgba(3, 3, 3, 0.1);
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.time {
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+  padding: 0;
+  margin-top: 0px;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  height: 18px;
+}
+.noidung {
+  display: inline-block;
+  vertical-align: top;
+  width: 79%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.timeline li {
+  position: relative;
+  margin: 0;
+}
+.timeline li::before {
+  content: "";
+  background-color: rgb(147, 147, 147);
+  width: 2px;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: -20px;
+  z-index: -1;
+}
+.test {
+  border: medium solid white;
+  background-color: black;
+  border-width: 10px 10px 10px 0;
+  border-color: green;
+}
+li::marker {
+  font-size: 32px;
+}
